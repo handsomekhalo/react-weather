@@ -1,0 +1,138 @@
+body{
+  background:  rgb(99,95,255);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: #282c34;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center
+  
+}
+
+.form{
+
+
+  background:  rgb(63,94,251);
+  background: linear-gradient(90deg , rgba(63,94,251,1)0%, rgba(218,217,0.09705889191614148)100%)
+}
+
+input{
+  border-radius: 20px;
+  outline: none;
+  border:transparent 1px;
+  padding:10px;
+  margin:10px 5px;
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .weather-desc h3{
+    color:rgb(21,28,28);
+    font-weight: 400;
+  }
+
+  .weather-desc p{
+    color:rgb(21,28,28);
+    font-size: 40;
+    margin: 0;
+  }
+
+  .title{
+ font-size: 40;
+     font-weight: 700;
+     margin-bottom: 0;
+  }
+
+  .location{
+    
+     font-weight: 400;
+
+  }
+
+.data img{
+  background:#18232B;
+  border-radius:50%;
+  padding:10px;
+  margin-top:-60px;
+}
+  button {
+  border-radius: 20px;
+  outline: none;
+  color:white;
+  border:transparent 1px;
+  background: #282c34;
+  padding:10px;
+
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  
+  }
+
+  .weather-div{
+
+    background-color: rgb(87,97,143);
+    margin:20px;
+    padding:100px 0 0 0;
+    ;
+  }
+
+   .weather-div div{
+
+    background-color:white;
+  text-align: center;
+  padding-bottom: 10px;
+    
+  }
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (min-width:768px) {
+
+  .weather-desc{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+     margin-bottom: 50px;
+     text-align: center;
+  }
+
+  .weather-div
+  {
+
+    margin: 20px 90px 20px 90px;
+  }
+
+  section{
+
+    text-align: center;
+  }
+ 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
